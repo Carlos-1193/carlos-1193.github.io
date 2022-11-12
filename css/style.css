@@ -83,3 +83,186 @@ html{
     border-radius: 50px;
     color: var(--white);
 }
+
+.services__container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    height: auto;
+}
+
+.services__container .services__container--title{
+    margin-top: 20px;
+    margin-left: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--blue_primary);
+
+}
+
+.services__container .services__container--skill{
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    list-style: none;
+
+}
+
+.services__container--skill a{
+    color: var(--blue_secondary);
+    text-decoration: solid underline var(--blue_secondary) 3px;
+}
+
+.container__skill{
+    display: grid;
+    grid-template-columns: 1fr 3 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 90%;
+    min-width: 299px;
+    max-width: 500px;
+    height:200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+}
+
+.container__skill .skill-gtihub{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    color: var(--blue_primary);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    
+    
+}
+
+.skill-gtihub img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.skill-gtihub p{
+   margin-top: 15px;
+   margin-left: 5px;
+}
+
+.container__skill .skill-divisor{
+    width: 3px;
+    height: 170px;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: var(--blue_secondary);
+    justify-self: center;
+    margin-top: 10px;
+
+}
+
+.container__skill .skill-wordpress{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    color: var(--blue_primary);
+    
+}
+
+.skill-wordpress img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.skill-wordpress p{
+    margin-top: 15px;
+    margin-left: 5px;
+ }
+
+.container__skill .skill-css3{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    color: var(--blue_primary);
+    
+}
+
+.skill-css3 img{
+    width: 51px;
+    height: 51px;
+    
+}
+
+.skill-css3 p{
+    margin-top: 15px;
+    margin-left: 5px;
+ }
+
+.container__skill .skill-angular{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    color: var(--blue_primary);
+    
+}
+.skill-angular img{
+    width: 40px;
+    height: 40px;
+
+}
+.skill-angular p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container__skill .skill-html5{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    color: var(--blue_primary);
+    
+}
+
+.skill-html5 img{
+    width: 40px;
+    height: 40px;
+}
+
+.skill-html5 p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container__skill .skill-js{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    color: var(--blue_primary);
+    
+}
+
+.skill-js img{
+    width: 40px;
+    height: 40px;
+}
+
+.skill-js p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
