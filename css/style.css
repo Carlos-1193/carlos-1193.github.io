@@ -32,6 +32,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     width: 100%;
     min-width: 320px;
     height: 329px;
@@ -72,16 +73,30 @@ html{
     color: var(--white);
 }
 
-.header__about__action__button--action{
-    margin-top: 50px;
-    width: 150px;
+.header__container li{
+    list-style: none;
+    width: 130px;
     height: 30px;
-    font-size: 1.4rem;
+    margin-top: 30px;
     background-color: transparent;
     border: 2px solid var(--white);
     border-radius: 50px;
-    color: var(--white);
+    line-height:25px;
+	text-align:center;
+    
 }
+
+.header__container li a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 6px;
+   
+    
+    
+}
+
 
 .services__container{
     display: flex;
