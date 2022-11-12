@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 865px)">
   <title>Carlos Villadiego - Web</title>
 </head>
 <body>
@@ -101,11 +102,18 @@
    
     <div class="container__contactme">
       <li class="contacme--titlle"><a href="#">CONECTA CON MIGO</a></li>
-      <form action="">
-        <input type="text" class="contacme_input-email" placeholder="Email">
-      <input type="text" class="contacme_input-message" placeholder="Mensaje:">
-      </form>
-    <input type="submit" value="CONTACTAR"class="contactme_button">
+
+      <div class="container__contactme--form">
+
+        <form action="">
+          <input type="text" class="contacme_input-email" placeholder="Email">
+        <input type="text" class="contacme_input-message" placeholder="Mensaje:">
+        </form>
+
+      </div>
+        
+        
+      <input type="submit" value="CONTACTAR"class="contactme_button">
       
     </div>
   </section>
