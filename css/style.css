@@ -328,11 +328,10 @@ html{
 .footer__aboutme{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
+    width: 70%;
     gap: 5px;
-    margin-top: 25px;
-   
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .footer__aboutme a{
