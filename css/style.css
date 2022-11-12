@@ -86,7 +86,7 @@ html{
 .services__container{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     width: 100%;
     min-width: 320px;
     max-width: 900px;
@@ -270,6 +270,7 @@ html{
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
@@ -346,9 +347,6 @@ html{
 
 }
 
-
-
-
 .container__contactme{
     display: flex;
     flex-direction: column;
@@ -356,7 +354,8 @@ html{
     min-width: 299px;
     max-width: 500px;
     margin: 0 auto;
-    height: 200px;
+    align-items: center;
+    height: 220px;
     margin-top: 15px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
@@ -405,6 +404,7 @@ html{
     color: var(--blue_primary);
     list-style: none;
     margin-left: 5px;
+    
 
 }
 
