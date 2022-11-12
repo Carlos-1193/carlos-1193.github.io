@@ -75,11 +75,10 @@ html{
 .header__about__action__button--action{
     margin-top: 50px;
     width: 150px;
-    height: 40px;
+    height: 30px;
     font-size: 1.4rem;
     background-color: transparent;
     border: 2px solid var(--white);
-    padding: 10px;
     border-radius: 50px;
     color: var(--white);
 }
