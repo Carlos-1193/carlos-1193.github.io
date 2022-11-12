@@ -363,7 +363,7 @@ html{
 
 
 .container__contactme .contacme_input-email{
-    width: 250px;
+    width: 300px;
     height: 35px;
     border-style: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -374,7 +374,7 @@ html{
 }
 
 .container__contactme .contacme_input-message{
-    width: 250px;
+    width:300px;
     height: 35px;
     border-style: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
