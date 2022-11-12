@@ -323,6 +323,7 @@ html{
     margin-top: 15px;
     color: var(--blue_primary);
    
+   
 }
 
 .footer__aboutme{
@@ -332,6 +333,7 @@ html{
     gap: 5px;
     margin: 0 auto;
     margin-top: 30px;
+    
 }
 
 .footer__aboutme a{
